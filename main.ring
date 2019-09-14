@@ -7,6 +7,6 @@ func main
 	? "See the folder : ring/applications/texttospeech"
 	? copy("=",C_LINESIZE)
 	cDir = currentdir()
-	chdir(exefolder()+"/../applications/texttospeech")
+	chdir(exefolder()+"/../applications/text2speech")
 	system("ring text2speechController.ring")
 	chdir(cDir)
